@@ -1,6 +1,6 @@
 public class Prob08 {
     public static void main(String[] args) {
-        int arr[] = { 2, 4, 6, 8, 10 };
+        int [] arr = {1,2,3,4,5,6,7};
         subArrays(arr);
     }
 
