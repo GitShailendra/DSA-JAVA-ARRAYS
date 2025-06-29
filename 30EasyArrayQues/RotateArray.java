@@ -5,17 +5,16 @@ public class RotateArray {
         
         rotateArray(arr);
     }
-    public static void rotateArray (int arr[]){
-        int n  = arr.length;
+    public static void rotateArray(int arr[]){
+        int n = arr.length;
         int temp = arr[0];
         for(int i=0; i<n-1; i++){
             arr[i] = arr[i+1];
+
         }
         arr[n-1] = temp;
-        System.out.print("Rotated array: ");
         for(int i=0; i<n; i++){
             System.out.print(arr[i] + " ");
         }
-        System.out.println();
     }
 }
